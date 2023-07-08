@@ -1,0 +1,93 @@
+.edit_profile {
+    width: 325px;
+    height: 290px;
+    margin-top: 30px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 1px;
+  }
+
+  .form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 1px;
+  }
+
+  .form input::placeholder,
+  .form input:-ms-input-placeholder {
+    color: #999;
+  }
+
+  .form input[value] {
+    font-weight: bold;
+  }
+.edit_profile {
+    /* Add your styles for the edit profile container */
+}
+
+.profile__header {
+    /* Add your styles for the profile header */
+}
+
+.form {
+    /* Add your styles for the form container */
+}
+
+form label {
+    /* Add your styles for the labels */
+}
+
+form input[type="text"],
+form input[type="date"] {
+    /* Add your styles for the text and date inputs */
+}
+
+form .info_select {
+    width: 340px; /* Adjust the width as per your requirements */
+    height: 30px; /* Adjust the height as per your requirements */
+    /* Add any additional styles for the select box */
+}
+
+/* EditUser.css */
+
+/* ... */
+
+.form input[type="submit"] {
+    /* Styles for the "Update" button */
+    background-color: #4caf50;
+    color: white;
+    margin-top: 16px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    /* Hover styles for the "Update" button */
+    opacity: 0.8;
+}
+
+.form button[type="button"] {
+    /* Styles for the "Clear Information" button */
+    background-color: #f44336;
+    color: white;
+    margin-top: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button[type="button"]:hover {
+    /* Hover styles for the "Clear Information" button */
+    opacity: 0.8;
+}

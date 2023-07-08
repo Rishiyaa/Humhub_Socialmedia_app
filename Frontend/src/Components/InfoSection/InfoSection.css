@@ -1,0 +1,63 @@
+.info__container {
+    width: 300px;
+    height: 56px;
+    margin-top: 50px;
+    display: flex;
+}
+.info__image{
+    min-width: 60px;
+    min-height: 60px;
+}
+.info_content {
+    margin-left: 20px;
+}
+.info_username {
+    margin: 5px;
+    font-weight: bold;
+}
+.info_description{
+    margin: 5px;
+}
+.info__container {
+    display: flex;
+    align-items: center;
+}
+
+.info__image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.info_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info_username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info_description {
+    margin-bottom: 10px;
+}
+
+.info_content input[type="file"] {
+    margin-bottom: 10px;
+}
+
+.info_content button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info_content button:hover {
+    background-color: #0056b3;
+}

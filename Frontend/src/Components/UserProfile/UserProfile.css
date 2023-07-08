@@ -1,0 +1,9 @@
+.user_profile{
+    width: 325px;
+    height: 290px;
+    margin-top: 30px;
+}
+.profile__header{
+    font-weight: bold;
+    color: #8e8e8e;
+}
